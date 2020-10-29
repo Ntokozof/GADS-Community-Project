@@ -3,6 +3,8 @@
 # NOTE!
 
 To search for the movie, simply just type the name and press the search button. (e.g Joker)
+i.e type the name of the movie in the seach bar the click seach.
+From the list of movies select the one you world like to get more infomation about.
 
 # Follow the below example
 
