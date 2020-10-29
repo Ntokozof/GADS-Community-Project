@@ -1,0 +1,14 @@
+<mat-toolbar class="top-header-text" color="primary">GADS Community Projects Movie Portal</mat-toolbar>
+
+<mat-form-field hideRequiredMarker floatLabel='auto' appearance='fill' class="search-form">
+  <mat-label>Search Movie</mat-label>
+  <input required matInput [(ngModel)]="filtedMovie">
+</mat-form-field>
+
+<button mat-raised-button color="primary"  (click)="onGetMovie(filtedMovie)">Search</button><br>
+
+<div *ngFor="let movie of arr">
+  <mat-list  (click)="toDetail(movie)" *ngIf="!selected">
+    {{movie.title}}
+  </mat-list>
+</div>
